@@ -63,8 +63,8 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="bg-white shadow fixed left-5 right-5 z-50 top-5 py-4 rounded-xl">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-white shadow fixed left-0 md:left-4 right-0 md:right-4 z-50 top-0 md:top-4 py-2 md:py-4 md:rounded-xl">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -126,7 +126,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center gap-5">
+          <div className="md:hidden flex items-center gap-2">
           <Link
               href="/register"
               className="bg-secondary px-6 py-2 rounded-lg text-sm font-medium hover:bg-primary hover:text-white transition-colors duration-200 "

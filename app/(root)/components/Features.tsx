@@ -30,14 +30,14 @@ const Features = () => {
         },
       ]
   return (
-    <div className="bg-white p-16 grid grid-cols-1 md:grid-cols-3 gap-5">
+    <div className="bg-white px-4 py-16 md:p-16 grid grid-cols-1 md:grid-cols-3 gap-5">
         <div>
             <p className="text-primary font-bold">KEY FEATURES</p>
             <h3 className="text-primary text-4xl font-bold my-2">Our Primary <br /> Features</h3>
             <p className="text-primary mb-8">We provide a robust suite of features that makes management easier and ensures your SACCO thrives.</p>
             <CustomButton title='Get started' href='#' />
         </div>
-        <div className="col-span-2 grid grid-cols-2 gap-5">
+        <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-5 mt-8 md:mt-0">
                   {features.map((feature, index) => {
                     const IconComponent = feature.icon
                     return (

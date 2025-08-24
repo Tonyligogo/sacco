@@ -40,17 +40,17 @@ const ChooseUs = () => {
         },
       ]
   return (
-    <div className="p-16 bg-primary-foreground">
+    <div className="px-4 py-16 md:p-16 bg-primary-foreground">
         <p className="text-primary font-bold">WHY CHOOSE US</p>
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row justify-between">
         <h3 className="flex-1 text-primary text-4xl font-bold my-2">Why SACCOs Choose Us</h3>
         <p className="flex-1 text-primary">Transform your SACCO operations and give your members the modern experience they deserve, while reducing your administrative workload and ensuring regulatory compliance.</p>
         </div>
-        <div className="grid grid-cols-2 gap-5 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-16">
                   {benefits.map((benefit, index) => {
                     const IconComponent = benefit.icon
                     return (
-                      <div key={index} className="bg-white flex items-center gap-5 rounded-xl p-6">
+                      <div key={index} className="bg-white flex flex-col md:flex-row md:items-center gap-5 rounded-xl p-6">
                       <div className="size-14 flex-shrink-0  bg-secondary rounded-full grid place-content-center">
                       <IconComponent className="size-8 text-primary" />
                       </div>
@@ -64,22 +64,22 @@ const ChooseUs = () => {
                     )
                   })}
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 mt-16">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-4 mt-16">
             <div className="flex items-center gap-2">
                 <span className="text-primary text-4xl font-bold">10+</span>
-                <span className="text-primary font-semibold">SACCOs <br /> Trust Us</span>
+                <span className="text-primary font-semibold">SACCOs <br className="hidden md:block" /> Trust Us</span>
             </div>
             <div className="flex items-center gap-2">
                 <span className="text-primary text-4xl font-bold">200+</span>
-                <span className="text-primary font-semibold">Active <br /> Members</span>
+                <span className="text-primary font-semibold">Active <br className="hidden md:block" /> Members</span>
             </div>
             <div className="flex items-center gap-2">
                 <span className="text-primary text-4xl font-bold">100k+</span>
-                <span className="text-primary font-semibold">Processed <br /> Monthly</span>
+                <span className="text-primary font-semibold">Processed <br className="hidden md:block" /> Monthly</span>
             </div>
             <div className="flex items-center gap-2">
                 <span className="text-primary text-4xl font-bold">99.9%+</span>
-                <span className="text-primary font-semibold">Uptime <br /> Guarantee</span>
+                <span className="text-primary font-semibold">Uptime <br className="hidden md:block" /> Guarantee</span>
             </div>
         </div>
     </div>

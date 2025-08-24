@@ -7,11 +7,11 @@ import Phone1 from '@/public/phone-1.png'
 import Phone2 from '@/public/phone-2.png'
 const Hero = () => {
   return (
-    <div className="bg-primary min-h-screen px-4 md:px-16 pt-40">
-        <div className="flex flex-col md:flex-row gap-10 justify-between my-16">
+    <div className="bg-primary min-h-[100vh] px-4 md:px-16 pt-30 md:pt-40">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10 justify-between my-16">
             <div className="flex-1">
             <span className="text-secondary">The Modern Sacco</span>
-            <h1 className="text-white text-5xl font-bold">Modernize Your SACCO <br /> with Digital Excellence</h1>
+            <h1 className="text-white text-4xl md:text-5xl font-bold">Modernize Your SACCO <br /> with Digital Excellence</h1>
             </div>
             <div className="space-y-5 flex-1">
                 <p className="text-white text-lg">Empower your savings and credit cooperative with a comprehensive digital platform. Manage members, process loans, track savings, and grow your SACCO with confidence.</p>

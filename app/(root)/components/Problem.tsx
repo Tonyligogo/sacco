@@ -4,19 +4,19 @@ import { HeartCrack, Layers, TriangleAlert } from "lucide-react";
 
 const Problem = () => {
   return (
-    <div className="bg-primary-foreground p-16">
+    <div className="bg-primary-foreground px-4 py-16 md:p-16">
       <p className="text-primary font-bold text-center">
-        Problems
+        Problem
       </p>
       <p className="text-primary text-center mt-2 mb-8 font-bold text-3xl md:max-w-md md:mx-auto">
         SACCOs Deserve Better Than Spreadsheets
       </p>
-      <div className="flex justify-center items-center gap-5">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-5">
       <div className="flex-1 border">
             <Image src={Accountant} alt='frustarated accountant' height={500} className="w-full h-[500px] object-cover rounded-xl" />
         </div>
         <div className="flex-1 flex flex-col gap-5">
-          <div className="bg-white flex items-center gap-5 rounded-xl p-6">
+          <div className="bg-white flex flex-col md:flex-row md:items-center gap-5 rounded-xl p-6">
             <div className="size-14 flex-shrink-0  bg-secondary rounded-full grid place-content-center">
             <Layers className="size-8 text-primary" />
             </div>
@@ -29,7 +29,7 @@ const Problem = () => {
                 </p>
             </div>
           </div>
-          <div className="bg-white flex items-center gap-5 rounded-xl p-6">
+          <div className="bg-white flex flex-col md:flex-row md:items-center gap-5 rounded-xl p-6">
             <div className="size-14 flex-shrink-0  bg-secondary rounded-full grid place-content-center">
             <TriangleAlert className="size-8 text-primary" />
             </div>
@@ -42,7 +42,7 @@ const Problem = () => {
                 </p>
             </div>
           </div>
-          <div className="bg-white flex items-center gap-5 rounded-xl p-6">
+          <div className="bg-white flex flex-col md:flex-row md:items-center gap-5 rounded-xl p-6">
             <div className="size-14 flex-shrink-0 bg-secondary rounded-full grid place-content-center">
             <HeartCrack className="size-8 text-primary" />
             </div>

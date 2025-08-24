@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className="bg-primary p-4 md:p-16 text-white">
+    <footer className="bg-primary px-4 py-16 md:p-16 text-white">
       <div className="max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
@@ -116,7 +116,10 @@ const Footer = () => {
             <p>Proudly Owned By</p>
             <Link href='/https:corbantechnologies.org' className='text-secondary'>Corban Technologies</Link>
             </div>
-            <p className='flex items-center gap-1'>© 2025. All rights reserved. | Made with <Heart fill='#9edd05' className='text-secondary size-5' /> for SACCOs in Africa</p>
+            <div className='flex flex-col md:flex-row gap-5 md:gap-0 md:items-center'>
+            <p>© 2025. All rights reserved.</p>
+            <p className='flex items-center gap-1'>Made with <Heart fill='#9edd05' className='text-secondary size-5' /> for SACCOs in Africa</p>
+            </div>
           </div>
         </div>
       </div>
