@@ -236,7 +236,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white max-h-[100vh] overflow-y-auto shadow-lg z-40">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white max-h-[calc(100vh-5rem)] overflow-y-auto shadow-lg z-40">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {/* Mobile Features */}
             <div className="space-y-1">
