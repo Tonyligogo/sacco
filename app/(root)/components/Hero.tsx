@@ -27,7 +27,16 @@ const Hero = () => {
                     <p className="text-primary font-bold text-2xl">Easy Registration</p>
                 </div>
                 <p className="text-sm mt-2 mb-5">Quick 5-minute setup with your SACCO details and customize your digital workspace</p>
+                <div className="relative">
+                    <div className="absolute top-1/3 bg-secondary/60 backdrop-blur rounded-xl p-4">
+                    <div className="flex gap-2 items-center">
+                        <Image src={Logo} alt='logo' width={20} />
+                    <p className="font-semibold">Congratulations 🎉</p>
+                    </div>
+                    <p className="text-sm">Your SACCO has been created!</p>
+                    </div>
                 <Image src={Person} width={220} alt="person" className="mx-auto" />
+                </div>
             </div>
             <div className="rounded-xl bg-secondary p-5 pb-0">
                 <div className="flex gap-3 items-center">
@@ -48,7 +57,7 @@ const Hero = () => {
                 <Image src={Person} width={220} alt="person" className="mx-auto" />
                 </div>
             </div>
-            <div className="rounded-xl relative bg-white p-5 pb-0">
+            <div className="rounded-xl relative bg-white p-5 pb-0 h-[432px] md:h-auto">
                 <div className="flex gap-3 items-center">
                     <div className="size-11 bg-secondary rounded-full grid place-content-center">
                     <Settings className='size-6 text-primary'/>

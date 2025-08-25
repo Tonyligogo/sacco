@@ -5,14 +5,13 @@ import { HeartCrack, Layers, TriangleAlert } from "lucide-react";
 const Problem = () => {
   return (
     <div className="bg-primary-foreground px-4 py-16 md:p-16">
-      <p className="text-primary font-bold text-center">
-        Problem
-      </p>
-      <p className="text-primary text-center mt-2 mb-8 font-bold text-3xl md:max-w-md md:mx-auto">
-        SACCOs Deserve Better Than Spreadsheets
-      </p>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-5">
-      <div className="flex-1 border">
+      <p className="text-primary font-bold">PROBLEM</p>
+        <div className="flex flex-col md:flex-row justify-between">
+        <h3 className="flex-1 text-primary text-4xl font-bold my-2">Too Much Manual Work</h3>
+        <p className="flex-1 text-primary">Running a SACCO shouldn&apos;t consume your entire day with manual processes and administrative burdens.</p>
+        </div>
+      <div className="flex flex-col md:flex-row mt-8 justify-center items-center gap-5">
+      <div className="flex-1 w-full">
             <Image src={Accountant} alt='frustarated accountant' height={500} className="w-full h-[500px] object-cover rounded-xl" />
         </div>
         <div className="flex-1 flex flex-col gap-5">

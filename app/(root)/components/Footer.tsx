@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Logo from '@/public/sacco.png'
-import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, Clock, MessageCircle, Heart } from 'lucide-react'
+import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, Heart } from 'lucide-react'
 import Image from 'next/image'
 
 const Footer = () => {
@@ -114,7 +114,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row gap-5 justify-between">
             <div className='flex items-center gap-1'>
             <p>Proudly Owned By</p>
-            <Link href='/https:corbantechnologies.org' className='text-secondary'>Corban Technologies</Link>
+            <a href='https://www.corbantechnologies.org/' target="_blank" className='text-secondary'>Corban Technologies</a>
             </div>
             <div className='flex flex-col md:flex-row gap-5 md:gap-0 md:items-center'>
             <p>© 2025. All rights reserved.</p>

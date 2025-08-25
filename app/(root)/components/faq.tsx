@@ -23,40 +23,40 @@ const Faq = () => {
       defaultValue="item-1"
     >
       <AccordionItem value="item-1" className="bg-primary-foreground px-4 rounded-xl mb-2">
-        <AccordionTrigger className="font-semibold text-primary">How long does implementation take?</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionTrigger className="font-semibold text-primary text-lg">How long does implementation take?</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance text-base">
           <p>
           Most SACCOs are fully operational within 2-3 weeks. This includes data migration, staff training, and member onboarding.
           </p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2" className="bg-primary-foreground px-4 rounded-xl mb-2">
-        <AccordionTrigger className="font-semibold text-primary">Is my SACCO&apos;s data secure?</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionTrigger className="font-semibold text-primary text-lg">Is my SACCO&apos;s data secure?</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance text-base">
           <p>
           Yes, we use bank-level security with 256-bit encryption, regular backups, and comply with international data protection standards.
           </p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3" className="bg-primary-foreground px-4 rounded-xl mb-2">
-        <AccordionTrigger className="font-semibold text-primary">Can I import my existing member data?</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionTrigger className="font-semibold text-primary text-lg">Can I import my existing member data?</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance text-base">
           <p>
           Absolutely. We support data import from Excel, CSV, and most common SACCO management systems. Our team assists with the migration.
           </p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4" className="bg-primary-foreground px-4 rounded-xl mb-2">
-        <AccordionTrigger className="font-semibold text-primary">Do you support mobile money?</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionTrigger className="font-semibold text-primary text-lg">Do you support mobile money?</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance text-base">
           <p>
           We integrate with major mobile money providers including M-Pesa, Airtel Money, and already making plans to integrate banks.
           </p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-5" className="bg-primary-foreground px-4 rounded-xl">
-        <AccordionTrigger className="font-semibold text-primary">Can members use this on their phones?</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionTrigger className="font-semibold text-primary text-lg">Can members use this on their phones?</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance text-base">
           <p>
           Yes, our platform is fully mobile-responsive and soon we&apos;ll also offer native mobile apps for iOS and Android.
           </p>
